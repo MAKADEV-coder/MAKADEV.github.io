@@ -1,20 +1,25 @@
-/* Estilos generales */
+/* Estilos base */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    color: #333;
 }
 
 header {
     background-color: #4a148c; /* Morado */
     color: white;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 1.8em;
+}
+
+header p {
+    font-size: 1.2em;
 }
 
 section {
@@ -39,12 +44,39 @@ footer {
     bottom: 0;
 }
 
-a {
-    color: #e53935;
-    text-decoration: none;
+/* Estilos para pantallas más grandes */
+@media (min-width: 768px) {
+    header {
+        padding: 50px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    footer {
+        font-size: 1.2em;
+    }
 }
 
-a:hover {
-    text-decoration: underline;
+/* Estilos para pantallas aún más grandes (desktops) */
+@media (min-width: 1024px) {
+    header h1 {
+        font-size: 3em;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer {
+        font-size: 1.4em;
+    }
 }
 
