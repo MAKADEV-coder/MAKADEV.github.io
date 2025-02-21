@@ -20,7 +20,7 @@ body {
 
 /* Estilos del encabezado */
 header {
-    background-color: #5e2a84;  /* Morado oscuro */
+    background-color: #41185e;  /* Morado oscuro */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -46,7 +46,7 @@ header p {
 .intro h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #5e2a84;  /* Morado oscuro */
+    color: #41185e;  /* Morado oscuro */
 }
 
 .intro p {
@@ -86,7 +86,7 @@ header p {
     font-size: 28px;
     margin-bottom: 20px;
     text-align: center;
-    color: #5e2a84;  /* Morado oscuro */
+    color: #41185e;  /* Morado oscuro */
 }
 
 .project {
@@ -99,7 +99,7 @@ header p {
 .project h3 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #5e2a84;  /* Morado oscuro */
+    color: #41185e;  /* Morado oscuro */
 }
 
 .project p {
@@ -109,7 +109,7 @@ header p {
 
 /* Estilo del pie de página */
 footer {
-    background-color: #5e2a84;  /* Morado oscuro */
+    background-color: #41185e;  /* Morado oscuro */
     color: #fff;
     padding: 20px 0;
     text-align: center;
