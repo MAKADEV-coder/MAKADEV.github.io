@@ -8,8 +8,8 @@
 /* Fuentes y colores */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #f3f3f3;  /* Fondo gris claro para el cuerpo */
+    color: #fff;  /* Texto blanco para un contraste elegante */
 }
 
 /* Contenedor principal */
@@ -20,7 +20,7 @@ body {
 
 /* Estilos del encabezado */
 header {
-    background-color: #333;
+    background-color: #5e2a84;  /* Morado oscuro */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -38,7 +38,7 @@ header p {
 
 /* Sección de Introducción */
 .intro {
-    background-color: #fff;
+    background-color: #fff;  /* Fondo blanco */
     padding: 40px 0;
     text-align: center;
 }
@@ -46,6 +46,7 @@ header p {
 .intro h2 {
     font-size: 28px;
     margin-bottom: 20px;
+    color: #5e2a84;  /* Morado oscuro */
 }
 
 .intro p {
@@ -54,7 +55,7 @@ header p {
 
 /* Sección de Habilidades */
 .skills {
-    background-color: #f4f4f4;
+    background-color: #f4f4f4;  /* Fondo gris claro */
     padding: 40px 0;
     text-align: center;
 }
@@ -62,6 +63,7 @@ header p {
 .skills h2 {
     font-size: 28px;
     margin-bottom: 20px;
+    color: #5e2a84;  /* Morado oscuro */
 }
 
 .skills ul {
@@ -71,11 +73,12 @@ header p {
 .skills li {
     font-size: 18px;
     margin: 10px 0;
+    color: #333;  /* Texto gris oscuro */
 }
 
 /* Sección de Proyectos */
 .projects {
-    background-color: #fff;
+    background-color: #fff;  /* Fondo blanco */
     padding: 40px 0;
 }
 
@@ -83,10 +86,11 @@ header p {
     font-size: 28px;
     margin-bottom: 20px;
     text-align: center;
+    color: #5e2a84;  /* Morado oscuro */
 }
 
 .project {
-    background-color: #f4f4f4;
+    background-color: #f4f4f4;  /* Fondo gris claro */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -95,15 +99,17 @@ header p {
 .project h3 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #5e2a84;  /* Morado oscuro */
 }
 
 .project p {
     font-size: 16px;
+    color: #333;  /* Texto gris oscuro */
 }
 
 /* Estilo del pie de página */
 footer {
-    background-color: #333;
+    background-color: #5e2a84;  /* Morado oscuro */
     color: #fff;
     padding: 20px 0;
     text-align: center;
